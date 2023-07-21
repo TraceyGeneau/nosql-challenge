@@ -28,33 +28,33 @@ The magazine editors have some requested modifications for the database before y
 An exciting new halal restaurant just opened in Greenwich, but hasn't been rated yet. The magazine has asked you to include it in your analysis. Add the following information to the database:
 
 {
-    "BusinessName":"Penang Flavours",
-    "BusinessType":"Restaurant/Cafe/Canteen",
-    "BusinessTypeID":"",
-    "AddressLine1":"Penang Flavours",
-    "AddressLine2":"146A Plumstead Rd",
-    "AddressLine3":"London",
-    "AddressLine4":"",
-    "PostCode":"SE18 7DY",
-    "Phone":"",
-    "LocalAuthorityCode":"511",
-    "LocalAuthorityName":"Greenwich",
-    "LocalAuthorityWebSite":"http://www.royalgreenwich.gov.uk",
-    "LocalAuthorityEmailAddress":"health@royalgreenwich.gov.uk",
-    "scores":{
-        "Hygiene":"",
-        "Structural":"",
-        "ConfidenceInManagement":""
-    },
-    "SchemeType":"FHRS",
-    "geocode":{
-        "longitude":"0.08384000",
-        "latitude":"51.49014200"
-    },
-    "RightToReply":"",
-    "Distance":4623.9723280747176,
-    "NewRatingPending":True
-}
+    "BusinessName":"Penang Flavours",<br/>
+    "BusinessType":"Restaurant/Cafe/Canteen",<br/>
+    "BusinessTypeID":"",<br/>
+    "AddressLine1":"Penang Flavours",<br/>
+    "AddressLine2":"146A Plumstead Rd",<br/>
+    "AddressLine3":"London"<br/>,
+    "AddressLine4":"",<br/>
+    "PostCode":"SE18 7DY",<br/>
+    "Phone":"",<br/>
+    "LocalAuthorityCode":"511",<br/>
+    "LocalAuthorityName":"Greenwich",<br/>
+    "LocalAuthorityWebSite":"http://www.royalgreenwich.gov.uk",<br/>
+    "LocalAuthorityEmailAddress":"health@royalgreenwich.gov.uk",<br/>
+    "scores":{<br/>
+        "Hygiene":"",<br/>
+        "Structural":"",<br/>
+        "ConfidenceInManagement":""}, <br/>
+    
+    "SchemeType":"FHRS",<br/>
+    "geocode":{<br/>
+        "longitude":"0.08384000",<br/>
+        "latitude":"51.49014200" },  <br/>
+   
+    "RightToReply":"",<br/>
+    "Distance":4623.9723280747176,<br/>
+    "NewRatingPending":True }<br/>
+
 Find the BusinessTypeID for "Restaurant/Cafe/Canteen" and return only the BusinessTypeID and BusinessType fields.
 
 Update the new restaurant with the BusinessTypeID you found.
@@ -102,9 +102,9 @@ Hint: You will need to use the aggregation method to answer this.
 
 The first 5 rows of your resulting DataFrame should look something like this:
 
-_id	count
-0	Thanet	1130
-1	Greenwich	882
-2	Maidstone	713
-3	Newham	711
-4	Swale	686
+_id	count<br/>
+0	Thanet	1130<br/>
+1	Greenwich	882<br/>
+2	Maidstone	713<br/>
+3	Newham	711<br/>
+4	Swale	686<br/>
